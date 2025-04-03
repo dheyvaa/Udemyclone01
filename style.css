@@ -222,9 +222,20 @@ body {
 .footer-one__s2 p,.footer-one__s1 p{
     margin: 20px;
 }
+@media screen and (max-width:1400px) {
+   
+    .sale__offer{
+        top: 50px;
+        left: 500px;
+    }
+}
 @media screen and (max-width:800px) {
     body{
         font-size: 10px;
+    }
+    .sale__offer{
+        top: 50px;
+        left: 300px;
     }
     
 }
